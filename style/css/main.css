@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  height: 98vh;
+  font-family: 'InputMonoEL', sans-serif;
+  font-size: 6vw;
+  background-color: #F1E2D0;
+  color: blue;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column; }
+  body header a {
+    font-family: 'InputMonoBold', sans-serif;
+    -webkit-text-stroke: 0.25vw blue;
+    color: transparent;
+    text-shadow: 8px 12px yellow;
+    display: inline-block;
+    padding-bottom: 3vw; }
+  body img {
+    width: 100%; }
+  body a {
+    text-decoration: none;
+    z-index: 2; }
+    body a:hover {
+      text-shadow: 8px 12px yellow; }
+    body a:visited {
+      color: blue; }
+
+/* HEADER: Title of page */
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  margin-bottom: 1vw; }
+  .heading:hover .hide {
+    opacity: 1; }
+  .heading .hide {
+    opacity: 0;
+    text-shadow: none;
+    background-color: yellow; }
+
+.question {
+  padding: 2vw 0; }
+
+.title {
+  font-family: 'InputMonoELItalic', sans-serif;
+  text-transform: uppercase;
+  font-size: 3vw;
+  margin: 3vw 0 1vw 0;
+  background-color: yellow; }
+
+.info {
+  text-transform: none;
+  font-size: 3vw;
+  padding: 1vw 0; }
+
+.legend {
+  font-size: 1.5vw;
+  color: #1B1B26; }
+
+.code {
+  display: inline-block;
+  margin: 2vw auto;
+  font-size: 2vw;
+  color: #1B1B26;
+  width: 100%;
+  padding: 2vw;
+  margin: 2vw auto;
+  margin: auto; }
+
+footer {
+  margin-top: auto; }
+  footer h2 {
+    font-size: 3vw;
+    text-transform: uppercase; }
+
+@font-face {
+  font-family: 'InputMonoEL';
+  src: url("../../font/InputMono-ExtraLight.ttf") format("truetype"); }
+@font-face {
+  font-family: 'InputMonoELItalic';
+  src: url("../../font/InputMono-ExtraLightItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'InputMonoMedium';
+  src: url("../../font/InputMono-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: 'InputMonoBold';
+  src: url("../../font/InputMono-Bold.ttf") format("truetype"); }
+.elItalic {
+  font-family: 'InputMonoELItalic', sans-serif; }
+
+.medium {
+  font-family: 'InputMonoMedium', sans-serif; }
+
+section {
+  position: relative; }
+
+.circle {
+  background-color: white;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  z-index: -2; }
+  .circle:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    left: 50%; }
+  .circle:nth-of-type(2) {
+    position: absolute;
+    top: 95%;
+    left: 70%; }
+  .circle:nth-of-type(3) {
+    position: absolute;
+    top: 25%;
+    left: 10%; }
+  .circle:nth-of-type(4) {
+    position: absolute;
+    top: 45%;
+    left: 40%; }
+  .circle:nth-of-type(5) {
+    position: absolute;
+    top: 65%;
+    left: 90%; }
+  .circle:nth-of-type(6) {
+    position: absolute;
+    top: 0;
+    left: 60%; }
+  .circle:nth-of-type(7) {
+    position: absolute;
+    top: 10%;
+    left: 85%; }
+  .circle:nth-of-type(8) {
+    position: absolute;
+    top: 75%;
+    left: 25%; }
+  .circle:nth-of-type(9) {
+    position: absolute;
+    top: 55%;
+    left: 30%; }
+  .circle:nth-of-type(10) {
+    position: absolute;
+    top: 109%;
+    left: 115%; }
+
+/*# sourceMappingURL=main.css.map */
